@@ -1,0 +1,51 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "bharti",
+      "email": "bharti@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "kumar",
+      "email": "kumar@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "dinesh",
+      "email": "dinesh@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "ramesh",
+      "email": "ramesh@gmail.com"
+    },
+    {
+      "name": "Dinesh Kumar Bharti",
+      "email": "techdinesh96@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "jitendra",
+      "email": "jit@gmail.com",
+      "id": 6
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "bharti",
+      "email": "bharti@gmail.com"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

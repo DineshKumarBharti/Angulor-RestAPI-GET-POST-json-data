@@ -1,0 +1,24 @@
+<div class="container">
+    <form #emp="ngForm"(ngSubmit)='storeData(emp.value)'>
+        <div class="panel panel-primary  ">
+            <div class="panel-heading ">
+                Employee Login
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" ngModel class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" ngModel class="form-control" id="email">
+                </div>
+            </div>
+                <div class="panel-footer d-grid gap-2">
+                    <button type="submit" class="btn btn-primary  ">Save Data</button>
+                </div>
+            
+        </div>
+    </form>
+    {{emp.value | json}}
+</div>
